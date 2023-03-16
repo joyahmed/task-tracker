@@ -1,0 +1,10 @@
+<div
+  class="flex items-center justify-between bg-blue-400 bg-opacity-10 hover:bg-opacity-20 backdrop-blur-md rounded my-2 px-3 py-2 space-y-1">
+  <div class="flex flex-col space-y-3">
+    <h3 class="text-lg font-semibold">{{task.text}}</h3>
+    <p>{{task.day}}</p>
+  </div>
+  <div class="flex items-center justify-center bg-red-500 hover:bg-red-600 h-7 w-7 rounded-full cursor-pointer">
+    <fa-icon [icon]="faTimes"></fa-icon>
+  </div>
+</div>
